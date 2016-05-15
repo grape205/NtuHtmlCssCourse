@@ -1,0 +1,223 @@
+
+
+/*
+*{
+    border: :1px solid #000;
+    margin:10px;
+    padding:10px;
+}
+*/
+
+*{
+    box-sizing: border-box;
+}
+
+
+p,h1,h2,h3,h4,h5,h6{
+    @import url(http://fonts.googleapis.com/earlyaccess/notosanstc.css);
+    letter-sapcing:1px;
+   font-family: 'Noto Sans TC', sans-serif,monospace,cursive;
+}
+
+p{
+    line-height:20px;
+    
+}
+
+/*網站header 設定*/
+header{
+    font-size:20px;
+    color:#7e2abc;
+}
+
+
+/*網站header 設定*/
+header h1+p{
+    font-size:20px;
+    color:#3a14d8;
+}
+
+
+header h1{
+    margin:0px;
+    padding:0px:
+}
+
+
+/*一般基本設定*/
+h1{
+      color:blue;
+      font-size:50px;
+}
+
+
+header nav {
+/*    position: fixed;*/
+    top: 0;
+   
+/*    background-color: #F4C1C1;*/
+}
+
+
+.featured-image {
+    width:100%;
+    height:300px;
+    background-image:url("../images/sky-03.jpg");
+    background-size: 100%;
+}
+
+nav ul li {
+   /* float: left;*/
+   /*  padding: 5px 5px 5px 5px;*/
+    border: 1px solid #333;
+    /*loat: left;*/
+    background-color: #F4C1C1;
+    padding: 0 20px;
+    list-style-type: none;
+    list-style-position: inside;
+    display: inline-block;
+    width: 150px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+
+header nav .subnav {
+    position: relative;
+}
+
+header nav .dropdown-list {
+    position: absolute;
+    padding: 0;
+    left: 0;
+    display: none;
+}
+
+header nav .subnav:hover .dropdown-list {
+/*    display: none;*/
+    background-color: aqua;
+    display: block;
+}
+
+header nav .dropdown-list li {
+    display: block;
+    width: unset;
+    padding: 0;
+    background-color: #666;
+}
+
+header nav li a {}
+
+header nav li a:hover {
+    background-color: #585858;
+    color: #fff;
+}
+
+
+ article:nth-of-type(odd)
+{
+    background-color: bisque;
+}
+
+
+
+article img{
+    width:90%;
+}
+
+article{
+    float: left;
+    
+    width:100%;
+  
+    border:1px solid #ddd;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.box{
+    width:250px;
+    background-color: cornsilk;
+    padding:20px 60px;
+/*    border-left:10px solid #000;*/
+    margin:10px 10px;
+    font-size:30px;
+    font-weight:800;
+    text-align: center;
+    border-radius: 50%;
+    width:250px;
+    height:250px;
+    float:left;
+/*    height: 50px;*/
+}
+
+
+.articles {
+    width:800px;
+    margin:0 auto;
+}
+/*
+.box:first-child{
+    position:relative;
+    top:30px;
+    left:50px;
+    
+}
+*/
+
+/*
+
+.dropdown {
+    width:200px;
+    height:300px;
+    background-color: aquamarine;
+    position:absolute;
+    top:50px;
+    left:-10px;
+}
+*/
+
+/*
+header nav li:hover{
+    background-color: black;
+    
+}
+*/
+
+
+
+
+
+.Container {
+    background-color:azure;
+    overflow: auto;
+    width:80%;
+    margin:0 auto;
+}
+
+.content {
+    width:100%;
+    background-color:aqua;
+    float:left;
+}
+
+aside {
+    width:33%;
+    background-color: beige;
+    float:left;
+}
+
+header aside {
+    width:20%;
+    background-color: beige;
+}
+
+footer {
+    width:100%;
+    background-color:darkblue;
+    overflow: auto;
+}
+
+
+
+
