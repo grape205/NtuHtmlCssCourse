@@ -1,0 +1,93 @@
+
+/*
+    基本元素設定
+*/
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+header,.container,.content,aside,footer,.thumbnail,.box
+{
+    border:1px solid #444;
+    
+}
+nav{
+    height:30px;
+    line-height: 30px;
+    padding-left: 20px;
+    background-color: black;
+    color:#fff;
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+}
+header{
+    height:100px;
+    text-align: center;
+    margin-top: 30px;
+}
+header h1{
+    padding-top: 20px;
+}
+header p{
+    
+}
+.container{
+    width:90%;
+    margin:0 auto;
+    overflow: auto;
+}
+.content{
+    float: left;
+    width:80%;
+}
+
+ .thumbnail{
+    width:33.33%;
+   
+     float: left;
+     padding: 5px;
+     margin:5px;
+}
+.thumbnail img{
+    width:100%;
+    text-align: center;
+    
+}
+.box{
+    position: fixed;
+    width:70px;
+    font-size:14px;
+    top:200px;
+    right: 0;
+}
+.box ul{
+    list-style-type: none;
+    
+}
+.box .title{
+    padding:5px;
+    background-color:darkgray;
+    text-align: center;
+    color:white;
+}
+.box .icon {
+    position: absolute;
+    top:-5px;
+    right:0;
+    
+    background-color:white;
+    border: 1px solid #829fb7;
+    font:5px;
+    
+}
+aside{
+    float:left;
+    width:20%;
+}
+footer{
+    clear:both;
+}

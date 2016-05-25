@@ -1,6 +1,6 @@
 h1{
     color:blue;
-    font-size:100px;
+    font-size:1.17em;;
 }
 
 p{
@@ -33,17 +33,66 @@ div>p{
     border:50px solid #000;
 }
 
+a{
+    
+    text-decoration:none;
+}
+
 a:visited
 {
-    color:azure;
+    color:#FFFDE7;
 }
 a:hover{
-    background-color:aqua;
-    color:black;
+    background-color:#FFA726;
+    color:#FFFDE7;
+    font-size: 20px;
 }
 a:active{
-    background-color:bisque;
-    color:brown;   
+    background-color:#EF6C00;
+    color:#FFFDE7;   
 }
 
 
+
+.banner-image {
+    width:800px;
+    
+    height: 360px;
+    background-image: url("../images/banner.jpg");
+   background-size: 100%;
+    margin: 0 auto;
+}
+
+header nav ul li{
+    text-align: center;
+     list-style-type: none;
+    display: inline-block;
+    line-height: 30px;
+    margin-right: 25px;
+     background-color: #FFB74D;
+     padding: 0 5px;
+   @import url(https://fonts.googleapis.com/css?family=Candal);
+    font-family: 'Sigmar One', cursive;
+}
+
+
+
+header nav ul{
+    
+    position: relative;
+   
+    background-color: #FFB74D;
+    width:100%;
+    margin: 0 auto:
+
+}
+header nav {
+    position: relative;
+    top:-16px;   
+    margin: 0 auto;
+}
+
+.article {
+     width: 800px;
+    margin: 0 auto;
+}
